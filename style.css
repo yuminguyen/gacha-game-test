@@ -82,8 +82,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    height: 92vh;
+    width: 90vh;
 }
 
 .gacha-canvas {
@@ -91,11 +91,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 0.5vh;
-    /* border: 0.2vh solid #ddd;
-    border-radius: 1vh; */
     margin: 2.5vh;
-    width: 80%;
-    height: 90%;
+    width: 72vh;
+    height: 90vh;
     overflow: auto;
     background-color: rgba(250, 235, 215, 0.329);
 }
@@ -126,8 +124,8 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 90vh;
+    height: 92vh;
 }
 
 .gallery-list {
@@ -135,18 +133,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     padding: 2vh;
-    /* border: 2px solid #ddd; */
-    /* border-radius: 10px; */
     margin: 2.5vh;
-    width: 76.7%;
-    height: 90%;
+    width: 69vh;
+    height: 84vh;
     overflow: auto;
-    /* gap: 1vh; */
     background-color: rgba(250, 235, 215, 0.329);
 }
 
 .character-list {
-    /* padding: 2 2vh; */
     border: 0.5vh solid #ddd;
     margin: 0.5vh;
     border-radius: 1vh;
