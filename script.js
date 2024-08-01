@@ -162,6 +162,7 @@ function updateSpinCountDisplay() {
     spinCountDisplay.textContent = `Số lần quay: ${spinCount}`;
 
     spinCountDisplay.style.color = 'white';
+    spinCountDisplay.style.fontSize = '1.7vh';
 }
 
 // Rút 1 lần
