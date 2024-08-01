@@ -58,7 +58,7 @@ function spinOnce() {
         if (random < cumulativeWeight) {
             if (card.type === 'SSR') {
                 receivedSSR = true;
-                console.log(`Rút được thẻ SSR với trọng số: ${card.weight}`);
+                //console.log(`Rút được thẻ SSR với trọng số: ${card.weight}`);
             }
             //Cập nhật số lần rút của thẻ
             cardCounts[card.id] = (cardCounts[card.id] || 0) + 1;
