@@ -160,6 +160,8 @@ function updateCharacterImg(result) {
 function updateSpinCountDisplay() {
     const spinCountDisplay = document.getElementById('spinCountDisplay');
     spinCountDisplay.textContent = `Số lần quay: ${spinCount}`;
+
+    spinCountDisplay.style.color = 'white';
 }
 
 // Rút 1 lần
