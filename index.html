@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gacha Game Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-img">
+        <img id="background-img" src="assets/wallpaperflare.com_wallpaper.jpg" alt="Background">
+    </div>
+
+    <div class="navbar">
+        <button class="gachatab" onclick="openTab(event, 'Character')">Characters</button>
+        <button class="gachatab" onclick="openTab(event, 'Gacha')" id="defaultOpen">Gacha</button>
+    </div>
+
+    <div id="Gacha" class="container">
+        <div class="gacha-container">
+            <div class="gacha-canvas">
+                <div id="characterImage" class="character-image">
+                </div>
+            </div>
+            <div id="spinCountDisplay">Số lần quay: 0</div>
+            <div class="gacha-button">
+                <button id="spinButton1">Spin 1</button>
+                <button id="spinButton10">Spin 10</button>
+            </div>
+        </div>
+    </div>
+    <div id="Character" class="container">
+        <div class="gallery-character">
+            <div class="gallery-list" id="character-gallery">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
