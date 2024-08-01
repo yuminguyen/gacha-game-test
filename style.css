@@ -227,9 +227,19 @@ body {
     box-shadow: 0 0.4vh 0.8vh 0 rgba(0, 0, 0, 0.2), 0 0.6vh 2vh 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .container {
         width: 50vh;
-        width: 95vh;
+        height: 95vh;
+    }
+
+    .gacha-container {
+        width: 50vh;
+        height: 95vh;
+    }
+
+    .gallery-character {
+        width: 50vh;
+        height: 95vh;
     }
 }
