@@ -242,4 +242,14 @@ body {
         width: 48vh;
         height: 95vh;
     }
+
+    .gacha-canvas {
+        width: 48vh;
+        height: 95vh;
+    }
+
+    .gallery-list {
+        width: 48vh;
+        height: 95vh;
+    }
 }
