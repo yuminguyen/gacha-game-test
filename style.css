@@ -229,17 +229,17 @@ body {
 
 @media screen and (max-width: 500px) {
     .container {
-        width: 50vh;
+        width: 48vh;
         height: 95vh;
     }
 
     .gacha-container {
-        width: 50vh;
+        width: 48vh;
         height: 95vh;
     }
 
     .gallery-character {
-        width: 50vh;
+        width: 48vh;
         height: 95vh;
     }
 }
